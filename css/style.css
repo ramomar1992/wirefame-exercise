@@ -36,6 +36,7 @@ header section nav{
 header section nav ul{
     /* background-color: violet; */
     display: flex;  
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
     justify-content: space-around;
@@ -50,7 +51,7 @@ header section nav ul li a{
 }
 header section nav ul li a:hover{
     color: cyan;
-    text-decoration: underline wavy;
+    text-decoration: underline;
 }
 main {
     width: fit-content;
@@ -80,8 +81,8 @@ main section:last-child article{
     align-items: baseline;
     min-height: 400px;
     
-    main section:last-child img{
 } 
+main section:last-child img{
     margin:15px;
     max-width: 50%;
 }
